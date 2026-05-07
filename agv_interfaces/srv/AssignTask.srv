@@ -1,1 +1,6 @@
-
+geometry_msgs/Pose start
+geometry_msgs/Pose goal
+float32 urgency
+---
+bool accepted
+string reason
