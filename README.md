@@ -85,8 +85,6 @@ Below is a demonstration of the AGV performing task dispatching and energy-effic
 </p>
 
 ---
-![factory plan](assets/images/factory_plan.jpg)
-![grid](assets/images/factory_path_obj.png)
 
 ## 7. Installation & Setup
 
