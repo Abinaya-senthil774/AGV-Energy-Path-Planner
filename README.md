@@ -74,7 +74,21 @@ The model is calibrated using experimental mean power values obtained from the r
 | **Active Load Handling** | 54.71 W |
 | **Standby/Idle Power** | 7.50 W |
 
-## 6. Installation & Setup
+## 6. Results
+Below is a demonstration of the AGV performing task dispatching and energy-efficient path smoothing:
+![methodology](assets/results/picture2.png)
+![methodology](assets/results/picture3.png)
+![methodology](assets/results/picture4.png)
+![methodology](assets/results/picture5.png)
+<p align="center">
+  <video src="./assets/results/output.mp4" width="800" controls></video>
+</p>
+
+---
+![factory plan](assets/images/factory_plan.jpg)
+![grid](assets/images/factory_path_obj.png)
+
+## 7. Installation & Setup
 
 ### Prerequisites
 *   **ROS 2:** Humble or newer
