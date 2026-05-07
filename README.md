@@ -76,12 +76,12 @@ The model is calibrated using experimental mean power values obtained from the r
 
 ## 6. Results
 Below is a demonstration of the AGV performing task dispatching and energy-efficient path smoothing:
-![methodology](assets/results/picture2.png)
-![methodology](assets/results/picture3.png)
+![a](assets/results/picture2.png)
+![methodology](assets/results/Picture3.png)
 ![methodology](assets/results/picture4.png)
 ![methodology](assets/results/picture5.png)
 <p align="center">
-  <video src="./assets/results/output.mp4" width="800" controls></video>
+  <video src="assets/results/output.mp4" width="800" controls></video>
 </p>
 
 ---
