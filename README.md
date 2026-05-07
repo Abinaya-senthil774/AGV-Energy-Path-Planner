@@ -51,6 +51,8 @@ agv_energy_planner/
 ## 4. System Workflow
 
 *   **Grid Generation:** The system generates a high-resolution grid and classifies obstacles and traversable paths.
+![methodology](assets/images/factory_plan.jpg)
+![methodology](assets/images/factory_path_obj.png)
 *   **Task Dispatching:** The `dispatcher_node` receives tasks and selects the best AGV based on a score derived from distance and urgency.
 *   **Path Computation:** The selected AGV calculates an optimal path using the **Energy-Based Cost Function**:
 
@@ -60,7 +62,7 @@ where $E_{\text{unit}}$ is the average energy per unit distance.
 
 *   **Battery Management:** If the battery level drops below a **23% trigger level**, the AGV initiates a charging procedure to its nearest or least-delayed station.
 *   **Smoothing & Execution:** The path is simplified via shortcutting and cubic splines before execution to reduce motor strain.
-![methodology](assets/images/methodology(2).png)
+![methodology](assets/images/methodology.png)
 
 ## 5. Implementation Data
 The model is calibrated using experimental mean power values obtained from the research paper: *"[Energy Requirement Modeling for Automated Guided Vehicles Considering Material Flow and Layout Data](https://www.mdpi.com/2411-9660/8/3/48)"*.
