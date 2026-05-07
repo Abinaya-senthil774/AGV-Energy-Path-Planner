@@ -79,7 +79,6 @@ The model is calibrated using experimental mean power values obtained from the r
 ![a](assets/results/picture2.png)
 ![methodology](assets/results/Picture3.png)
 ![methodology](assets/results/picture4.png)
-![methodology](assets/results/picture5.png)
 ![methodology](assets/results/picture6.jpg)
 ![methodology](assets/results/picture7.png)
 ![methodology](assets/results/picture8.jpg)
