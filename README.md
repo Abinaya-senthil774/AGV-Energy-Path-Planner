@@ -51,8 +51,8 @@ agv_energy_planner/
 ## 4. System Workflow
 
 *   **Grid Generation:** The system generates a high-resolution grid and classifies obstacles and traversable paths.
-![methodology](assets/images/factory_plan.jpg)
-![methodology](assets/images/factory_path_obj.png)
+![factory plan](assets/images/factory_plan.jpg)
+![grid](assets/images/factory_path_obj.png)
 *   **Task Dispatching:** The `dispatcher_node` receives tasks and selects the best AGV based on a score derived from distance and urgency.
 *   **Path Computation:** The selected AGV calculates an optimal path using the **Energy-Based Cost Function**:
 
